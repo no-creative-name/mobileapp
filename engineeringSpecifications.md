@@ -51,3 +51,10 @@ The user can choose one or multiple companies to delete. He has to confirm the d
 * Address
 * Country
 * Assigned contact IDs
+
+## Hardware requirements
+* Android
+* iOS
+
+## Target group
+* Businessmen
