@@ -1,7 +1,7 @@
 # Specifications:
 
 ## Introduction
-With the mobile contacts app the user is able to manage all of their contacts and their respective data.
+With the mobile contacts app the user is able to manage all of his contacts and their respective data.
 
 ## Functionality
 * The user can see an overview of all contacts or companies and access their detail pages.
