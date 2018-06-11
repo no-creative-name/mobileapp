@@ -58,3 +58,6 @@ The user can choose one or multiple companies to delete. He has to confirm the d
 
 ## Target group
 * Businessmen
+
+## UML & Mockup
+https://www.draw.io/#G1qdLOrz5lz36jogpOpQZUpXZJnKtdbOt5
