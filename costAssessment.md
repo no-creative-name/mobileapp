@@ -23,3 +23,8 @@
 
 ### TOTAL
 20d
+
+### REALISTIC TOTAL
+40d
+
+40d * 30 = 12.000 €
