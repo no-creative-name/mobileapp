@@ -1,0 +1,10 @@
+TO TEST:
+Repository.deleteCompany(Company toDelete, boolean deleteAllEmployees)
+- Company nicht mehr im Repository
+
+Company.addEmployee(Person employee)
+- Company.isEmployee(employee) = true
+
+void sortCompanies(List<Company> listOfCompanies)
+- Liste ist anschließend alphabetisch sortiert
+
