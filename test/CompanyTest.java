@@ -11,6 +11,6 @@ class CompanyTest {
 
         testCompany.addEmployee(testPerson);
 
-        assertEquals(0, testCompany.employees.get(0).id);
+        assertEquals(testPerson.id, testCompany.employees.get(0).id);
     }
 }

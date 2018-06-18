@@ -38,6 +38,9 @@ class RepositoryTest {
         repo.persons.add(new Person(0,"John", "Doe"));
         repo.persons.add(new Person(1,"Jane", "Doe"));
         repo.persons.add(new Person(2,"Jamie", "Doe"));
+        Person anotherCompanysEmployee = new Person(3, "Jennifer", "Doe");
+        repo.persons.add(anotherCompanysEmployee);
+
         c1.addEmployee(repo.persons.get(0));
         c1.addEmployee(repo.persons.get(1));
         c1.addEmployee(repo.persons.get(2));
@@ -47,6 +50,7 @@ class RepositoryTest {
         repo.deleteCompany(c1, true);
 
         assertEquals(0, repo.companies.size());
-        assertEquals(0, repo.persons.size());
+        assertEquals(1, repo.persons.size());
+        assertEquals(anotherCompanysEmployee.id, repo.persons.get(0).id);
     }
 }

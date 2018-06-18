@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccafe635-4559-44b0-a8e1-03dfa2dbcbe2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/costAssessment.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/engineeringSpecifications.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ganttChart.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/riskManagement.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/specifications.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CompanyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/CompanyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/RepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/RepositoryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RepositoryTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RepositoryTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/RepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="319">
+              <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -74,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CompanyTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CompanyTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/CompanyTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -141,11 +138,11 @@
         <option value="$PROJECT_DIR$/src/MobileContactsApp.java" />
         <option value="$PROJECT_DIR$/src/Person.java" />
         <option value="$PROJECT_DIR$/src/Company.java" />
-        <option value="$PROJECT_DIR$/test/RepositoryTest.java" />
         <option value="$PROJECT_DIR$/test/MobileContactsAppTest.java" />
         <option value="$PROJECT_DIR$/src/Repository.java" />
         <option value="$PROJECT_DIR$/documents/testReqs.txt" />
         <option value="$PROJECT_DIR$/test/CompanyTest.java" />
+        <option value="$PROJECT_DIR$/test/RepositoryTest.java" />
       </list>
     </option>
   </component>
@@ -217,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in MobileContactsApp">
+  <component name="RunManager" selected="JUnit.RepositoryTest.deleteCompanyWithAllEmployees">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -353,10 +350,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RepositoryTest.deleteCompanyWithAllEmployees" />
         <item itemvalue="JUnit.All in MobileContactsApp" />
         <item itemvalue="JUnit.CompanyTest.addEmployee" />
         <item itemvalue="JUnit.RepositoryTest.deleteCompanyWithoutEmployees" />
-        <item itemvalue="JUnit.RepositoryTest.deleteCompanyWithAllEmployees" />
         <item itemvalue="JUnit.RepositoryTest" />
       </list>
     </recent_temporary>
@@ -375,12 +372,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RepositoryTest - 2018.06.18 at 18h 43m 18s.xml">
-      <configuration name="RepositoryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CompanyTest - 2018.06.18 at 18h 45m 06s.xml">
-      <configuration name="CompanyTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CompanyTest - 2018.06.18 at 18h 46m 07s.xml">
       <configuration name="CompanyTest" configurationId="JUnit" />
     </history-entry>
@@ -403,6 +394,12 @@
       <configuration name="RepositoryTest.deleteCompanyWithoutEmployees" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_MobileContactsApp - 2018.06.18 at 19h 06m 26s.xml">
+      <configuration name="All in MobileContactsApp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompanyTest_addEmployee - 2018.06.18 at 19h 09m 21s.xml">
+      <configuration name="CompanyTest.addEmployee" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_MobileContactsApp - 2018.06.18 at 19h 09m 26s.xml">
       <configuration name="All in MobileContactsApp" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -484,27 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MobileContactsApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
-          <folding>
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/MobileContactsAppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-          <folding>
-            <element signature="e#471#480#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Company.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -515,13 +491,6 @@
             <element signature="e#261#262#0" expanded="true" />
             <element signature="e#296#297#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/RepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -554,7 +523,35 @@
     <entry file="file://$PROJECT_DIR$/test/CompanyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MobileContactsApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
+          <folding>
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/MobileContactsAppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding>
+            <element signature="e#471#480#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/RepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
         </state>
       </provider>
     </entry>
